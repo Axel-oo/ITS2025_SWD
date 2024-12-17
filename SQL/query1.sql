@@ -4,3 +4,6 @@ CREATE TABLE corsi (
     ore INT NULLcorsi
     -- PRIMARY KEY (id) <-- questo è un altro modo per scrivere la le istruzioni di chiave primaria --
 );
+
+INSERT INTO corsi (nome) VALUES ('Fondamenti di basi di dati')
+INSERT INTO corsi (ore) VALUES ('50')
